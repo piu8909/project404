@@ -1,0 +1,154 @@
+package com.start.my;
+
+import java.util.Arrays;
+
+public class poker2 {
+
+	public static void main(String[] args) {
+		
+        
+    String dex = " 8C TS KC 9H 4S 7D 2S 5D 3S AC";
+    String dex2 = dex.replace(" ","");
+    String player1 = dex2.substring(0,10);
+    String player2 = dex2.substring(10,dex2.length());
+    String player1dec[] = new String[5];
+    String player2dec[] = new String[5];
+    int player1n[] = new int[5];
+    int player2n[] = new int[5];
+    String player1x[] = new String[5];
+    String player2x[] = new String[5];
+    int p1Ccount = 0;
+    int p1Dcount = 0;
+    int p1Hcount = 0;
+    int p1Scount = 0;
+    int p2Ccount = 0;
+    int p2Dcount = 0;
+    int p2Hcount = 0;
+    int p2Scount = 0;
+    
+    int b = 0 ;
+    int d = 0 ;
+    
+    int plater1score = 0 ; 
+    int plater2score = 0 ;
+    
+    for(int a = 0  ;   a < player1.length() ;  a=a+2 ){
+       player1dec[b] = player1.substring(a,a+2);
+       b = b+1;
+    }
+    
+    for(int a = 0  ;   a < player2.length() ;  a=a+2 ){
+       player2dec[d] = player2.substring(a,a+2);
+       d = d+1;
+    }
+    
+    for(int a = 0 ; a < player1dec.length ; a++){
+    	
+    	String number = player1dec[a].substring(0, 1);
+    	
+    	if(number.equals("T")){
+    		number = "10";
+    	}else if(number.equals("J")){
+    		number = "11";
+    	}else if(number.equals("Q")){
+    		number = "12";
+    	}else if(number.equals("K")){
+    		number = "13";
+    	}else if(number.equals("A")){
+    		number = "14";
+    	}
+       player1n[a] = Integer.parseInt(number);
+       player1x[a] = player1dec[a].substring(1, 2);
+    }
+    
+    
+    for(int a = 0 ; a < player2dec.length ; a++){
+	String number = player1dec[a].substring(0, 1);
+    	
+    	if(number.equals("T")){
+    		number = "10";
+    	}else if(number.equals("J")){
+    		number = "11";
+    	}else if(number.equals("Q")){
+    		number = "12";
+    	}else if(number.equals("K")){
+    		number = "13";
+    	}else if(number.equals("A")){
+    		number = "14";
+    	}
+       player1n[a] = Integer.parseInt(number);
+        player2x[a] = player2dec[a].substring(1, 2);
+     }
+    
+
+   
+    
+    for(int a = 0; a < player1n.length ; a++){
+    	 Arrays.sort(player1n);
+    	 System.out.println(Arrays.toString(player1n));
+     }
+     
+    
+    
+    for(int a = 0; a < player1x.length ; a++){
+       if(player1x[a].equals("C")){
+          p1Ccount = p1Ccount + 1;
+       }
+       if(player1x[a].equals("D")){
+          p1Dcount = p1Dcount + 1;
+       }
+       if(player1x[a].equals("H")){
+          p1Hcount = p1Hcount + 1;
+       }
+       if(player1x[a].equals("S")){
+          p1Scount = p1Scount +1; 
+       }
+    }
+    
+    
+  for(int a = 0; a < player2x.length ; a++){
+       if(player2x[a].equals("C")){
+          p2Ccount = p2Ccount + 1;
+       }
+       if(player2x[a].equals("D")){
+          p2Dcount = p2Dcount + 1;
+       }
+       if(player2x[a].equals("H")){
+          p2Hcount = p2Hcount + 1;
+       }
+       if(player2x[a].equals("S")){
+          p2Scount = p2Scount +1; 
+       }
+    }
+    
+    
+   
+    
+    if(p1Ccount == 5){
+       
+    }else if(p1Dcount == 5 ){
+       
+    }else if(p1Hcount == 5){
+       
+    }else if(p1Scount == 5){
+       
+    }
+    
+    if(p1Ccount == 5){
+        
+    }else if(p1Dcount == 5 ){
+       
+    }else if(p1Hcount == 5){
+       
+    }else if(p1Scount == 5){
+       
+    }
+    
+
+    
+    
+
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.ProjectPhh.www;
+
+public class test22 {
+
+	public static void main(String[] args) {
+		
+		//SingletonEx1 st = new SingletonEx1();
+		//SingletonEx1 st = SingletonEx1.getInstance();
+		//st.setA();  //A = 10증가
+		//st.print();
+		//st.getInstance();
+		//st.print();
+		//st.initInstance(); // 인스턴스 초기화
+		//st.setA();  //A = 10증가
+		//st.print();  // 1 => A 출력 
+		//st.initInstance(); // 인스턴스 초기화
+		//st.print(); // 1=> A 출력
+		
+		
+		SingletonEx2 st2 =new SingletonEx2();
+		
+		
+		System.out.println(st2.a);
+		
+	}
+	
+	
+}

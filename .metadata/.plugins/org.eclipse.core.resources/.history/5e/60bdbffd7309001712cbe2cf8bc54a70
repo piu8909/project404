@@ -1,0 +1,34 @@
+package com.ProjectPhh.www;
+
+public class SingletonEx1 {
+	
+	static private int a = 0 ;
+	
+	private static SingletonEx1 instance = new SingletonEx1();  
+	  	
+	private SingletonEx1() {
+		 a = 0;
+		 System.out.println("생성자 생성");
+	}
+	
+	public static SingletonEx1 getInstance(){
+			System.out.println("생성자 호출");
+			return instance;
+	}
+	
+	public static void setA(){
+		a = a+ 10;
+		System.out.println("A 10 증가 ");
+	}
+	
+	public static void setInit(){
+		a = 0;
+		System.out.println("A 초기화 ");
+	}
+	
+	public static void print(){
+		System.out.println("A출력 :"+ a);
+	}
+	
+	
+}

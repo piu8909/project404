@@ -1,0 +1,22 @@
+package com.ProjectPhh.www;
+
+public class test22 {
+
+	public static void main(String[] args) {
+		
+		//SingletonEx1 st = new SingletonEx1();
+		SingletonEx1 st = SingletonEx1.getInstance();
+		st.setA();  //A = 10����
+		st.print();
+		st.setInit();
+		st.getInstance();
+		st.print();
+		
+		SingletonEx2 st2 =new SingletonEx2();
+		
+		//System.out.println(st2.a);
+		
+	}
+	
+	
+}

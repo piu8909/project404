@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="password" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="password"/>
+			<item value="join_ok"/>
+			<item value="8080`"/>
+			<item value="8080"/>
+			<item value="org"/>
+			<item value="&lt;re"/>
+			<item value="repsi"/>
+			<item value="view"/>
+		</list>
+		<list key="replacehistory">
+			<item value="/resources/images/"/>
+			<item value="/resuorces/assets"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="340" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="964" key="DIALOG_X_ORIGIN"/>
+		<item value="347" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

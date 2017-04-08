@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<section>
+	<header class="major">
+		<h2>회원가입</h2>
+	</header>
+	<table>
+		<thead>
+			<tr>
+				<td>아이디</td>
+				<th><input type="text" name="name" /></th>
+			</tr>
+			<tr>
+				<td>성 명</td>
+				<th><input type="text" name="name" /></th>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<th><input type="text" name="name" /></th>
+			</tr>
+			<tr>
+				<td>휴대폰번호</td>
+				<th><input type="text" name="name" /></th>
+			</tr>
+		</thead>
+	</table>
+	<input  type="submit" value="회원가입">
+</section>
