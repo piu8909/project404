@@ -15,7 +15,7 @@
 	<body>
 		<table>
 			<tr height="40px">
-				<td>유저ID</td>
+				<td>ID</td>
 				<td><input type="text" name="userId"></td>
 			</tr>
 			<tr height="40px">
