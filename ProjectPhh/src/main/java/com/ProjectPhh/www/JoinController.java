@@ -25,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class JoinController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
-	//성공, 실패  테스트 계정: test, test
+	//성공, 실패  테스트 계정: id:test, password:test
 	@RequestMapping(value = "/login.do", method = RequestMethod.GET)
 	public String login(Locale locale, Model model) {
 		

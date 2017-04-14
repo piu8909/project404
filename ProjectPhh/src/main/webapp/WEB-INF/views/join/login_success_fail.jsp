@@ -22,7 +22,7 @@ if(session.getAttribute("loginInfo")==null){
 
 	이름 : <%= session.getAttribute("loginInfo") %>
 	
-	<%} %>
+	<%}  %>
 
 </body>
 </html>

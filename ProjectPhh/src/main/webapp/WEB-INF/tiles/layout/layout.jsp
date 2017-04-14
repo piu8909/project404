@@ -38,7 +38,7 @@
 					<a href="index.jsp" class="logo"><strong>Editorial</strong> by
 						HTML5 UP</a>
 					<ul class="icons">
-						<li><a href="login.do"><span class="label">로그인</span></a></li>
+						<li><a href="login.do"><span  class="label">로그인</span></a></li>
 						<li><a href="join.do"><span class="label">회원가입</span></a></li>
 
 
