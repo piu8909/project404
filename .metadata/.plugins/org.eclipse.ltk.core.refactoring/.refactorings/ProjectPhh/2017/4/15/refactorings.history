@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProjectPhh/src/main/webapp/WEB-INF/views/join/login_success.jsp&apos; to &apos;login_success_fail.jsp&apos;" description="Rename resource &apos;login_success.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/join/login_success.jsp" name="login_success_fail.jsp" stamp="1492191646521" updateReferences="true"/>
+</session>

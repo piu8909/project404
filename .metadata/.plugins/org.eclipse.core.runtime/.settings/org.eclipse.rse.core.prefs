@@ -1,4 +1,4 @@
-activeuserprofiles=ADMINIS-4BOS70G;Team
+activeuserprofiles=ADMINIS-4BOS70G;DESKTOP-0F5KH6Q;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=Administrator
-useridperkey=ADMINIS-4BOS70G.Local\=Administrator;
+useridperkey=DESKTOP-0F5KH6Q.Local\=Administrator;ADMINIS-4BOS70G.Local\=Administrator;
