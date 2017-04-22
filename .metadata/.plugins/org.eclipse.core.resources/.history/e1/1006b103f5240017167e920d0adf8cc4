@@ -1,0 +1,12 @@
+package com.ProjectPhh.www;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ArrayListEx1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

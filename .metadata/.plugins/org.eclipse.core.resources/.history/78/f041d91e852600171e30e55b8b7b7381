@@ -1,0 +1,44 @@
+package com.ProjectPhh.www;
+
+/*
+setDaemon메서드는 반드시 start()를 호출하기 전에 실행되어야 한다. 그렇지 않으면
+lilegalThreadStateException이 발생한다.
+*/
+
+public class ThreadEx12 {
+	public static void main(String args[]){
+		ThreadEx12_1 th1 = new ThreadEx12_1("Thread1");
+		ThreadEx12_2 th2 = new ThreadEx12_2("Thread2");
+		th1.start();
+		th2.start();
+	}
+}
+
+
+class ThreadEx12_1 extends Thread{
+	 ThreadEx12_1(String name){
+		 super(name);
+	}
+	 public void run(){
+		 try{
+			 sleep(5*1000);
+		 }catch (InterruptedException e) { }
+		 
+	 }
+}
+
+
+
+class ThreadEx12_2 extends Thread{
+	 ThreadEx12_2(String name){
+		 super(name);
+	}
+	
+	public void run(){
+		 try{
+			 sleep(5*1000);
+		 }catch (InterruptedException e) { }
+		 
+	 }
+}
+

@@ -1,0 +1,47 @@
+package com.ProjectPhh.www;
+
+import java.util.ArrayList;
+
+public class ArrayListEx1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList listl = new ArrayList (10) ;
+		listl . add(new Integer (5)) ;
+		listl.add( new Integer (4));
+		listl . add (new Integer (2)) ;
+		listl . add(new Integer (O)) ;
+		listl. add(new Integer(l)) ;
+		listl . add(new Integer(3)) ;
+		ArrayList list2 = new ArrayList (listl.subList(1 , 4 ));
+		print(listl , list2) ;
+		Collections. sort (listl) ; // listl 과 list2 를 정렬한다 •
+		Collections. sort (list2) ; // Collections. sort (List 1)
+		print( listl , list2) ;
+		System.out.println ( "istl.containsAll(list2) : + listl . containsAll(list2));
+		list2.add("B " ) ;
+		list2.add( "C" ) ;
+		list2.add(3 , "A" ) ;
+		print(listl , list2) ;
+		list2.set(3 , "AA");
+		print(listl , l i st2 ) ;
+		//listl 에서 list2 와 겹치는 부운만 남기고 나머지는 삭제한다 .
+		System . out .println( " listl . retai nAll(list2) :"
+		+ listl . retainAll(list2 ));
+		print(listl , list2) ;
+		// list 2 에서 lis t1에 포항된 객체들을 삭제한다 •
+		for(int i= list2.size() - l; i >= 0 ; i -- ) (
+		if(list1 . contains (list2 . get(i )))
+		list2 . remove ( i );
+		print (l ist1 , list2) ;
+		} // main
+		static void print(ArrayList list1 , ArrayList list2) (
+		System.out.println( " list1 :" +list1) ;
+		System.out.print1n( " list2 :" +list2) ;
+		System.out.print1n() ;
+		} // c1ass
+		
+		
+	}
+
+}

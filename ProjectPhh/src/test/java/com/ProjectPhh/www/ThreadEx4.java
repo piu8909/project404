@@ -1,0 +1,45 @@
+package com.ProjectPhh.www;
+
+/*
+싱글쓰래드와 멀티쓰레드 
+싱글쓰레드와 멀티쓰레드의 차이는 
+호출스택을 몇개 가지고 처리 하냐는 차이 이다.
+하나의 호출스택은 하나의 쓰레드 라고 할 수 있다.
+즉 싱글쓰레드는 하나의 작업이 끝나고 다른 작업을 시작하지만,
+멀티쓰레드는 다수의 호출스택을 가지고 호출스택을 번갈아가면서 작업을 하는 것이다.
+멀티쓰레드를 이용하면 동시에 작업 하는 것 같은 효과를 볼 수 있지만 사실은 번갈아 가면서 작업하는 것이다.
+*/    
+
+
+
+public class ThreadEx4 {
+	public static void main(String args[]){
+		long startTime = System.currentTimeMillis();
+		
+		for(int i = 0 ; i < 300 ; i++){
+			System.out.println("-");
+		}
+		
+		System.out.println("소요시간1 time : " +(System.currentTimeMillis() - startTime));
+		
+		for(int i=0 ; i < 300 ; i++){
+			System.out.println("|");
+		}
+		
+		System.out.println("소요시간2 time : " +(System.currentTimeMillis() - startTime));
+	}
+}
+
+	
+/*    
+   2개의 작업을 싱글쓰레드로 처리 할때와 멀티쓰레드로 처리 할 때
+     싱글쓰레드가 멀티쓰레드 보다 작업 속도가 빠르다 그 이유는 작업전환에 시간이 걸리기 때문이다.
+*/
+
+
+
+
+
+
+
+
